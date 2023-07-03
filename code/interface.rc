@@ -1,0 +1,157 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+#ifdef _WIN32
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+101 DIALOGEX 0, 0, 400, 190
+STYLE DS_SETFONT | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Настройки"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    GROUPBOX        "General",IDC_STATIC,3,9,155,100,0x10
+    GROUPBOX        "Graph",IDC_STATIC,3,111,150,59,0x10
+    GROUPBOX        "3D_view",IDC_STATIC,161,9,131,76,0x10
+    GROUPBOX        "Параметры пульсара",IDC_STATIC,295,9,102,178,0x10
+    GROUPBOX        "Cap",IDC_STATIC,165,113,121,55,0x10
+    PUSHBUTTON      "Load",IDC_BUTTON_LOAD,17,22,29,11
+    CONTROL         "График производной",RADIO_DRAW_PROIZV,"Button",BS_AUTORADIOBUTTON,13,124,85,12
+    CONTROL         "График угол/высота",RADIO_DRAW_ANGLE,"Button",BS_AUTORADIOBUTTON,13,138,82,11
+    PUSHBUTTON      "Пустить луч",IDC_COMMAND_P,16,35,63,13
+    PUSHBUTTON      "Выход лучей при данном угле",IDC_COMMAND_R,16,51,133,12
+    PUSHBUTTON      "Выход лучей в зависимости от угла",IDC_COMMAND_C,17,67,132,13
+    PUSHBUTTON      "Help",IDC_BUTTON4,114,22,37,11
+    LTEXT           "Период(секунды)",IDC_STATIC,305,20,59,8
+    EDITTEXT        IDC_PERIOD,305,31,77,12,ES_AUTOHSCROLL
+    LTEXT           "Магнитное поле(гаусс)",IDC_STATIC,306,46,78,8
+    EDITTEXT        IDC_PULSAR_B,305,58,80,12,ES_AUTOHSCROLL
+    LTEXT           "Угол наклона(градусы)",IDC_STATIC,305,99,80,8
+    LTEXT           "Радиус пульсара",IDC_STATIC,305,73,84,10
+    EDITTEXT        IDC_PULSAR_R,306,83,79,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ANGLE_NAKLONA,306,110,77,12,ES_AUTOHSCROLL
+    LTEXT           "До завершения вычисления:",IDC_STATIC,297,161,99,8
+    SCROLLBAR       IDC_SCROLLBAR2,299,172,95,11
+    PUSHBUTTON      "Применить",IDC_APPLY,319,146,50,14
+END
+
+102 DIALOGEX 25, 20, 206, 90
+STYLE DS_SETFONT | DS_MODALFRAME | DS_CENTER | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+CAPTION "О программе"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,154,74,50,14
+    ICON            2002,IDC_STATIC,18,16,20,20
+    LTEXT           "Бегущая строка",IDC_STATIC,85,20,39,30
+    CTEXT           "Copyright (c) 2005 Андрей Андрианов",IDC_STATIC,18,46,170,14
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDFRAME,2,2,202,70,WS_EX_STATICEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+2002                    ICON                    "SUN.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+1 VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "Бегущая строка Demo"
+            VALUE "CompanyName", "Андрей Андрианов"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "Бегущая строка Demo"
+            VALUE "LegalCopyright", "Copyright (C) 2005 Андрей Андрианов"
+            VALUE "OriginalFilename", "STRING.EXE"
+            VALUE "ProductName", "Бегущая строка Demo"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "", 0x409, 1200
+    END
+END
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
