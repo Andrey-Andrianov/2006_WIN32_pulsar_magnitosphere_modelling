@@ -34,7 +34,7 @@
 
 # Ссылка на публикацию
 
-Результаты, полученные в при помощи данной программы легли в основу исследования, описанного в статье
+Результаты, полученные при помощи данной программы легли в основу исследования, описанного в статье
 
 A. S. Andrianov, V. S. Beskin "Limiting polarization effect—a key link in investigating the mean profiles of radio pulsars" Astronomy Letters volume 36, pages 248–259 (2010)
 
